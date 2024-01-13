@@ -1,0 +1,28 @@
+.navbar {
+    margin-top: 20px;
+}    
+    body {
+      font-family: "Noto Sans JP", sans-serif;
+      background-image: url(https://s0.smartresize.com/wallpaper/642/639/HD-wallpaper-background-with-flowers-black-damask-pattern-vintage-floral-pattern-black-vintage-background-floral-patterns-black-retro-backgrounds-black-backgrounds-floral-vintage-pattern-vintage-backgrounds.jpg);
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+  }
+  
+  h1 {
+      text-align: center;
+      color: #f1cf0a;
+  }
+  
+  .video {
+      margin-bottom: 30px;
+      background-color: #d19d0f;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+      display: block;
+      margin: 0 auto;
+  }
+    

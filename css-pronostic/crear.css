@@ -1,0 +1,27 @@
+.navbar {
+    margin-top: 20px;
+    
+  }
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://s0.smartresize.com/wallpaper/642/639/HD-wallpaper-background-with-flowers-black-damask-pattern-vintage-floral-pattern-black-vintage-background-floral-patterns-black-retro-backgrounds-black-backgrounds-floral-vintage-pattern-vintage-backgrounds.jpg);
+}
+.signup-container {
+    width: 300px; /* Ancho del contenedor */
+    margin: 20px auto; /* Ajuste del margen */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre el logo y la tabla */
+}
+
+.logo-container img {
+    width: 30%; /* Ancho del logo */
+    max-height: 50px; /* Altura máxima del logo */
+}

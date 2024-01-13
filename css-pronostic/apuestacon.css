@@ -1,0 +1,48 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://s0.smartresize.com/wallpaper/642/639/HD-wallpaper-background-with-flowers-black-damask-pattern-vintage-floral-pattern-black-vintage-background-floral-patterns-black-retro-backgrounds-black-backgrounds-floral-vintage-pattern-vintage-backgrounds.jpg);
+}
+.navbar {
+    margin-top: 20px;
+    
+  }
+  .statistics {
+    padding: 20px;
+    background-color: #e6d00f;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .results-table {
+    margin-bottom: 20px;
+    background-color: white; /* Cambia el color de fondo de la tabla a amarillo */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  .performance-chart {
+    /* Estilos para el gráfico, aquí se utilizaría una librería de gráficos como Chart.js */
+  }
+  
+  .success-stats {
+    margin-top: 20px;
+  }
+  

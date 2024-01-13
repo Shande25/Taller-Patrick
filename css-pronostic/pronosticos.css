@@ -1,0 +1,68 @@
+
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?q=80&w=1623&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  .navbar {
+    margin-top: 20px;
+    
+  }
+  
+  .carousel-imagenes {
+    width: 100%; /* Ancho del carrusel */
+    margin: auto; /* Centrar el carrusel */
+    height: 200px;
+  
+  }
+  .button-container button {
+    margin: 5px;
+    background-color: yellow;
+    color: black; /* Color del texto de los botones */
+    border: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s; /* Transición al cambiar el color */
+  }
+  
+  .button-container button:hover {
+    background-color: green; /* Cambia a verde al pasar el cursor */
+    color: white; /* Cambia el color del texto a blanco al pasar el cursor */
+  }
+  
+  .button-container button.selected {
+    background-color: green; /* Mantiene el color de fondo verde cuando está seleccionado */
+    color: white; /* Cambia el color del texto a blanco cuando está seleccionado */
+  }
+  .mensaje {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: yellow;
+  }
+  .redes-sociales {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-logo {
+    width: 80px; /* Tamaño más pequeño */
+    height: auto; /* Mantiene la proporción original */
+    border: none; /* Quita el borde de la imagen */
+    margin-right: 10px; /* Espacio entre los logotipos */
+  }
+  .message-container {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+    color: yellow;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  

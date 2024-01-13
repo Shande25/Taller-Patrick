@@ -1,0 +1,76 @@
+.navbar {
+    margin-top: 20px;
+} 
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://s0.smartresize.com/wallpaper/642/639/HD-wallpaper-background-with-flowers-black-damask-pattern-vintage-floral-pattern-black-vintage-background-floral-patterns-black-retro-backgrounds-black-backgrounds-floral-vintage-pattern-vintage-backgrounds.jpg);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cambia el color de fondo según sea necesario */
+  }
+
+  .trend-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .grid-item {
+    width: 30%; /* Ajusta según sea necesario para tres elementos en una fila */
+    margin: 10px;
+    position: relative;
+    background-color: #000; /* Marco negro */
+    border-radius: 8px;
+    overflow: hidden; /* Evita que el borde se expanda */
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+
+  .button-container {
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .button-container button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */ 
+  }
+
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+  .titulo{
+    color: rgb(207, 178, 9);
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imagen-superior img {
+    width: 100%;
+    height: auto;
+    max-height: 30vh; /* Ajusta la altura según tus necesidades */
+  }
+  

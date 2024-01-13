@@ -1,0 +1,68 @@
+.navbar {
+    margin-top: 20px;
+} 
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://s0.smartresize.com/wallpaper/642/639/HD-wallpaper-background-with-flowers-black-damask-pattern-vintage-floral-pattern-black-vintage-background-floral-patterns-black-retro-backgrounds-black-backgrounds-floral-vintage-pattern-vintage-backgrounds.jpg);
+}
+.navbar {
+    background-color: #007bff; /* Color de fondo de la barra */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Texto de la marca en negrita */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Color de los enlaces */
+    margin-right: 10px; /* Espaciado entre enlaces */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-container {
+    width: 300px; /* Ancho del contenedor */
+    margin: 20px auto 50px; /* Ajuste del margen */
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 8px;
+}
+
+.login-container h2 {
+    text-align: center; /* Texto centrado */
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre el logo y la tabla */
+}
+
+.logo-container img {
+    width: 30%; /* Ancho del logo */
+    max-height: 50px; /* Altura máxima del logo */
+}
+.carousel-imagenes {
+    width: 100%; /* Ancho del carrusel */
+    margin: auto; /* Centrar el carrusel */
+    height: 200px;
+  
+  }
+  .button-container button {
+    margin: 5px;
+    background-color: yellow;
+    color: black; /* Color del texto de los botones */
+    border: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s; /* Transición al cambiar el color */
+  }
+  
+  .button-container button:hover {
+    background-color: green; /* Cambia a verde al pasar el cursor */
+    color: white; /* Cambia el color del texto a blanco al pasar el cursor */
+  }
+  
+  .button-container button.selected {
+    background-color: green; /* Mantiene el color de fondo verde cuando está seleccionado */
+    color: white; /* Cambia el color del texto a blanco cuando está seleccionado */
+  }
